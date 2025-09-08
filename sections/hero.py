@@ -16,7 +16,7 @@ def render():
                 {"title": "Menu", "path": "/"},
                 {"title": "Gallery", "path": "/"},
                 {"title": "About", "path": "/"},
-                {"title": "Blog", "path": "/"},
+                {"title": "Reservation", "path": "/"},
                 {"title": "Contact", "path": "/"},
                 ]
                 for item in navlinks:
@@ -24,9 +24,11 @@ def render():
 
             # socials
             with ui.row().classes("text-white"):
+                ui.html('<i class="fa-brands fa-tripadvisor"></i>')
                 ui.html('<i class="fa-brands fa-facebook-f"></i>')
                 ui.html('<i class="fa-brands fa-instagram"></i>')
                 ui.html('<i class="fa-brands fa-x-twitter"></i>')
+                ui.html('<i class="fa-solid fa-bars"></i>')
         
         # text
         with ui.element("div").classes('text-white font-bold text-center bg-black/70 h-full w-full flex flex-col items-center justify-center'): 
