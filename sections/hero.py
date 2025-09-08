@@ -8,7 +8,7 @@ def render():
         with ui.element("nav").classes("flex flex-row justify-between items-center w-full fixed left-0 top-0 px-20 py-10"):
             # logo
             with ui.link(target='/'):
-                ui.html('<i class="fa-solid fa-utensils"></i>').classes('text-white text-4xl')
+                ui.html('<i class=<i class="fa-solid fa-bowl-food"></i>').classes('text-white text-4xl')
             # navlinks  
             with ui.row():
                 navlinks = [
