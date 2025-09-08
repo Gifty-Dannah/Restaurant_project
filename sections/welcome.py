@@ -1,7 +1,9 @@
 from nicegui import ui
 
-def render_welcome():
-    with ui.element("div").classes("min-h-screen w-screen flex flex-col bg-gray-50"):
+def render():
+     ui.label("Welcome to Theody's Arena!")
+
+with ui.element("div").classes("min-h-screen w-screen flex flex-col bg-gray-50"):
         # navbar
         with ui.element("nav").classes("flex flex-row justify-between items-center w-full fixed left-0 top-0 px-20 py-6 bg-white shadow"):
             # logo
